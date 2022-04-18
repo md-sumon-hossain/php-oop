@@ -13,11 +13,11 @@ class Book extends Product{
 
 }
 
-$book= new Book(1, "pen", 10);
+$book= new Book(1, "eng", 10);
 $book->showInfo();
 
-$pen= new Book(1, "pencil", 15);
-$pen->setbook("abc");
+$pen= new Book(1, "science", 15);
+$pen->setbook("priliminary science");
 $pen->showInfo();
 $pen->getBook();
 
